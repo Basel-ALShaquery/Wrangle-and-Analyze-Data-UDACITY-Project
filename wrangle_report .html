@@ -1,0 +1,34 @@
+<h1>Wrangle Report 🛠️</h1>
+
+<h2>What's up with the data? 🤔</h2>
+
+<p>We got this big Twitter dataset full of dog ratings, tweet IDs, favorites, retweets, and even some pics. But like any raw data, it needed some cleaning up before we could use it.</p>
+
+<hr />
+
+<h2>Problems We Found 🚨</h2>
+
+<ol>
+<li>Some tweets had more than one dog stage like "doggo pupper" — weird combo, right?</li>
+<li>There were retweets mixed with original tweets — we just want the real stuff.</li>
+<li>Missing values here and there like ratings without dogs or tweets without images.</li>
+<li>Data types were messy — some numbers were stored as text.</li>
+</ol>
+
+<hr />
+
+<h2>What We Did 💪</h2>
+
+<ul>
+<li>Dropped retweets. Only kept original tweets for clean insights.</li>
+<li>Fixed rating numerator/denominator issues (some looked like fractions, others were just... off).</li>
+<li>Created one column for dog stage instead of four (doggo, floofer, pupper, puppo).</li>
+<li>Fixed data types: tweet IDs as string, ratings as float, etc.</li>
+<li>Cleaned and merged extra info like image predictions and tweet metrics.</li>
+</ul>
+
+<hr />
+
+<h2>Result ✅</h2>
+
+<p>Boom! We ended up with a clean, organized DataFrame called <code>twitter_archive_master</code> — ready to dig into for insights 🔍</p>

@@ -1,0 +1,66 @@
+
+<!-- saved from url=(0060)file:///C:/Users/Basel%20Hossam/Downloads/act_report%20.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><h1>Act Report 🎯</h1>
+
+<h2>Let's Talk Doggos on Twitter 🐶</h2>
+
+<p>We cleaned up this messy Twitter data to explore what's really poppin' in the world of dog tweets. Here’s what we found:</p>
+
+<hr>
+
+<h2>Insight 1: People Love Big Ratings ❤️</h2>
+
+<p>The higher the dog rating (like 13/10 or 14/10), the more likes the tweet gets. Turns out, hyping up doggos gets people to smash that like button.</p>
+<p></p>
+
+<h2> Top 5 Most Predicted Dog Breeds</h2>
+<img src="./act_report _files/output2.png" alt="Top 5 Most Predicted Dog Breeds" width="600">
+<p>
+    The most frequently predicted dog breeds are shown here. The <strong>golden retriever</strong> is the most common breed 
+    predicted by the model, followed by <strong>Labrador retriever</strong>, <strong>Pembroke</strong>, <strong>Chihuahua</strong>, and <strong>pug</strong>.
+</p>
+
+<p><strong>Data Used:</strong> Cleaned ratings and favorite_count<br>
+<strong>Cleaning:</strong> Standardized ratings and removed invalid entries<br>
+<strong>Visual:</strong> Bar chart of average likes by rating bucket</p>
+
+<hr>
+
+<h2>Insight 2: Doggo &gt; Pupper? 🐕</h2>
+
+<p>Among the dog stages, "pupper" appears the most, but "doggo" tends to get more likes. Maybe people just love that word?</p>
+<h2>3. Average Favorite Count by Dog Stage</h2>
+<h2>1. Average Engagement Based on Image Presence</h2>
+<img src="./act_report _files/output3.png" alt="Average Engagement Based on Image Presence" width="600">
+<p>
+    This chart compares average engagement (favorites and retweets) between tweets with and without images. 
+    Clearly, tweets that include images tend to receive higher favorites and slightly higher retweets.
+
+</p>
+
+    This suggests that certain dog stages are more appealing to users.
+<p></p>
+<p><strong>Data Used:</strong> dog<em>stage + favorite</em>count<br>
+<strong>Cleaning:</strong> Melted doggo/pupper/puppo/floofer into one column<br>
+<strong>Visual:</strong> Bar plot of average likes per stage</p>
+
+<hr>
+
+<h2>Insight 3: Tweets With Images Win 🖼️</h2>
+
+<p>Tweets that included dog pics had WAY more likes and retweets. Dogs + pics = Internet gold.</p>
+
+<h1>📊 Visualizations in Twitter Dog Rating Analysis</h1>
+
+<h2>1. Average Engagement Based on Image Presence</h2>
+<img src="./act_report _files/output.png" alt="Average Engagement Based on Image Presence" width="600">
+<p>
+    This chart compares average engagement (favorites and retweets) between tweets with and without images. 
+    Clearly, tweets that include images tend to receive higher favorites and slightly higher retweets.
+</p>
+
+<p><strong>Data Used:</strong> jpg<em>url + favorite</em>count + retweet_count<br>
+<strong>Cleaning:</strong> Checked for non-null image URLs<br>
+<strong>Visual:</strong> Bar chart comparing engagement with/without images</p>
+<hr>
+</body></html>
